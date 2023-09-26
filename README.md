@@ -22,7 +22,7 @@ Este é um projeto de análise de dados, que envolve a utilização das bibliote
 # 5. Coleta de dados
 
 
-Os dados foram extraidos da [Polícia Rodoviária Federal (PRF)](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes) Foi feio o downloard do arquivo em csv e importado para o Databricks. Depois, filtrou-se os dados somente para o município de Vitória da Conquista/BA. Após isso, foi feito um cópia desses dados. Segue abaixo uma amostra da tabela. Para visualizar a tabela completa, acesse o arquivo por meio do link disponibilizado acima.
+Os dados foram extraidos da [Polícia Rodoviária Federal (PRF)](https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-acidentes). Foi feio o downloard do arquivo em csv e importado para o Databricks. Depois, filtrou-se os dados somente para o município de Vitória da Conquista/BA. Após isso, foi feito um cópia desses dados. Segue abaixo uma amostra da tabela. Para visualizar a tabela completa, acesse o arquivo por meio do link disponibilizado acima.
 
 ## 5.1 Amostra da tabela
 
@@ -31,7 +31,7 @@ Os dados foram extraidos da [Polícia Rodoviária Federal (PRF)](https://www.gov
 ## 5.2 Visualizando todas as colunas da tabela em um formato de lista
 <img src="https://github.com/mauriciomeira85/Analisando-acidentes-de-transito-envolvendo-animais-em-VCA/blob/main/Imagens/2.png" width="120%"/>
 
-Com os dados importados para o Databricks, o primeiro passo foi verificar inconsistêcias nos dados. Observou-se que não havia valores duplicados, mas que algumas colunas não estavam com o tipo de dado correto. Além disso, percebeu-se que ascolunas pesid, marca, ano e idade possuiam 131, 99, 188 e 259 valores nulos, respectivamente. Após verificar as inconsistências, o foco foi a limpeza e tratamento desses dados. Optou-se por remover as colunas que continham valores nulos, uma vez elas não seriam utilizadas na análise. Com os dados tratados, a próxima etapa foi fazer a Análise Exploratória dos Dados com objetivo de obter insigts para o time de negócios.
+Com os dados importados para o Databricks, o primeiro passo foi verificar inconsistêcias nos dados. Observou-se que não havia valores duplicados, mas que algumas colunas não estavam com o tipo de dado correto. Além disso, percebeu-se que as colunas pesid, marca, ano e idade possuiam 131, 99, 188 e 259 valores nulos, respectivamente. Após verificar as inconsistências, o foco foi a limpeza e tratamento desses dados. Optou-se por remover as colunas que continham valores nulos, uma vez elas não seriam utilizadas na análise. Com os dados tratados, a próxima etapa foi fazer a Análise Exploratória dos Dados com objetivo de obter insigts para o time de negócios.
 
 # 6. Análise Exploratória dos Dados: Obtendo insigts para o time de negócios
 
